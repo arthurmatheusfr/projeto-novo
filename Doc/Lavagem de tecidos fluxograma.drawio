@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2024-06-23T19:22:53.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="XtCWBE7sZecdMoePj0aM" version="24.6.2" type="device">
+  <diagram name="Página-1" id="Vuhh4yuBPmeqAnKpDpKX">
+    <mxGraphModel dx="1626" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Recepção de tecidos sujos" style="rounded=0;whiteSpace=wrap;arcSize=50;strokeWidth=2;html=1;" parent="1" vertex="1">
+          <mxGeometry x="56" y="-70" width="212" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Separação por tipo de tecido" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="33" y="84" width="257" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Separação por nível de sujeira" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="28" y="391" width="267" height="267" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Lavagem pesada" style="rounded=0;whiteSpace=wrap;arcSize=50;strokeWidth=2;html=1;" parent="1" vertex="1">
+          <mxGeometry y="710" width="142" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Lavagem leve" style="rounded=0;whiteSpace=wrap;arcSize=50;strokeWidth=2;html=1;" parent="1" vertex="1">
+          <mxGeometry x="192" y="700" width="128" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Enxágue" style="rounded=0;whiteSpace=wrap;arcSize=50;strokeWidth=2;html=1;" parent="1" vertex="1">
+          <mxGeometry x="71" y="800" width="180" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Centrifugação" style="rounded=0;whiteSpace=wrap;arcSize=50;strokeWidth=2;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="950" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Finalização e secagem" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;shape=ellipse;perimeter=ellipsePerimeter;html=1;" parent="1" vertex="1">
+          <mxGeometry x="67" y="1169" width="184" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Tecidos leves" style="curved=1;startArrow=none;endArrow=block;exitX=0.77;exitY=1;entryX=0.5;entryY=0;" parent="1" source="4" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="252" y="692" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Tecidos pesados" style="curved=1;startArrow=none;endArrow=block;exitX=0.23;exitY=1;entryX=0.5;entryY=0;" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="71" y="692" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.06;entryY=0;" parent="1" source="5" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="71" y="786" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.94;entryY=0;" parent="1" source="6" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="252" y="786" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="7" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="8" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JaBvCrcNGbaxrJHRa8l6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JaBvCrcNGbaxrJHRa8l6-17" target="2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JaBvCrcNGbaxrJHRa8l6-17" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-240" width="189.5" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
