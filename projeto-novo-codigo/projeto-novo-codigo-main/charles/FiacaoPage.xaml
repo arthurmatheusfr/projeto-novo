@@ -1,0 +1,21 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="charles.FiacaoPage"
+             Title="Fiação">
+
+    <VerticalStackLayout>
+        <Label Text="Tipo de fibra" FontSize="18"/>
+        <Entry x:Name="entryTipoFibra" Placeholder="Digite o tipo de fibra"/>
+
+        <Label Text="Ajustar parâmetros" FontSize="18"/>
+        <Entry x:Name="entryAjustarParametros" 
+        Placeholder="Digite os parâmetros"/>
+
+        <CheckBox x:Name="chkFiaçaoManual"/>
+
+        <Button Text="Iniciar Fiação" 
+        Clicked="IniciarFiacao_Clicked"/>
+        <Button Text="Voltar" 
+        Clicked="Voltar_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

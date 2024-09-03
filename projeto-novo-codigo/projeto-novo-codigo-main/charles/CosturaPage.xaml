@@ -1,0 +1,22 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="charles.CosturaPage"
+             Title="Costura">
+
+    <VerticalStackLayout Spacing="20">
+        <Label Text="Costura" FontSize="Title" HorizontalTextAlignment="Center" />
+        <ListView x:Name="listaItens" ItemsSource="{Binding Itens}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <HorizontalStackLayout>
+                            <Label Text="{Binding Numero}" />
+                            <Label Text="{Binding Nome}" />
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Separar para criar" Clicked="SepararParaCriar_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>

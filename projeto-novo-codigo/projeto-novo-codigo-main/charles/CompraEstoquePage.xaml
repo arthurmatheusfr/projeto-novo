@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="charles.CompraEstoquePage"
+             BackgroundColor="Yellow">
+
+    <StackLayout Padding="10" HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Compra de Estoque" 
+               FontSize="Large" 
+               FontAttributes="Bold" 
+               TextColor="Blue" 
+               HorizontalOptions="Center" />
+
+        <Label Text="Qt." 
+               FontSize="Medium" 
+               TextColor="Black" />
+
+        <Entry x:Name="qtEntry" 
+               Placeholder="Digite a quantidade" 
+               BackgroundColor="White"
+               Keyboard="Numeric"/>
+
+        <Label Text="Tecido" 
+               FontSize="Medium" 
+               TextColor="Black" />
+
+        <Entry x:Name="tecidoEntry" 
+               Placeholder="Digite o tecido" 
+               BackgroundColor="White" />
+
+        <Label Text="Local" 
+               FontSize="Medium" 
+               TextColor="Black" />
+
+        <Entry x:Name="localEntry" 
+               Placeholder="Digite o local" 
+               BackgroundColor="White" />
+
+        <Label Text="Frete: R$15,00" 
+               FontSize="Medium" 
+               TextColor="Black" />
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10" Padding="10">
+            <Button Text="Comprar Agora" 
+                    BackgroundColor="Blue" 
+                    TextColor="White" 
+                    Clicked="OnComprarAgoraClicked" 
+                    HorizontalOptions="Center" />
+            <Button Text="Voltar" 
+                    BackgroundColor="Blue" 
+                    TextColor="White" 
+                    Clicked="OnVoltarClicked" 
+                    HorizontalOptions="Center" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

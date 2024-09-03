@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="charles.DespachePage"
+             BackgroundColor="Yellow">
+
+    <StackLayout Padding="10" HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Despache" 
+               FontSize="Large" 
+               FontAttributes="Bold" 
+               TextColor="Blue" 
+               HorizontalOptions="Center" />
+
+        <Label Text="Complemento" 
+               FontSize="Medium" 
+               TextColor="Black" />
+
+        <Entry x:Name="complementoEntry" 
+               Placeholder="Digite o complemento" 
+               BackgroundColor="White" />
+
+        <Label Text="Horario recomendado" 
+               FontSize="Medium" 
+               TextColor="Black" />
+
+        <Entry x:Name="horarioRecomendadoEntry" 
+               Placeholder="Digite o horário recomendado" 
+               BackgroundColor="White" />
+
+        <Label Text="Pagar extra pra entrega rapida com prioridade?" 
+               FontSize="Medium" 
+               TextColor="Black" />
+
+        <CheckBox x:Name="extraCheckBox" />
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10" Padding="10">
+            <Button Text="Enviar" 
+                    BackgroundColor="Blue" 
+                    TextColor="White" 
+                    Clicked="OnEnviarClicked" 
+                    HorizontalOptions="Center" />
+            <Button Text="Voltar" 
+                    BackgroundColor="Blue" 
+                    TextColor="White" 
+                    Clicked="OnVoltarClicked" 
+                    HorizontalOptions="Center" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="charles.LavagemPage"
+             BackgroundColor="Yellow">
+
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="20">
+        <Label Text="Lavagem de tecidos" 
+               FontSize="24" 
+               HorizontalOptions="Center" 
+               TextColor="Blue"/>
+        
+        <StackLayout Orientation="Horizontal" 
+        HorizontalOptions="Center" 
+        Margin="10">
+            <Label Text="Qual maquina" 
+                   FontSize="20" 
+                   VerticalOptions="Center"/>
+            <Entry WidthRequest="100" 
+                   HeightRequest="40" 
+                   BackgroundColor="White" 
+                   VerticalOptions="Center" 
+                   Margin="10,0,0,0"
+                   Keyboard="Text"/>
+        </StackLayout>
+        
+        <StackLayout Orientation="Horizontal" 
+        HorizontalOptions="Center" 
+        Margin="10">
+            <Label Text="Tempo" 
+                   FontSize="20" 
+                   VerticalOptions="Center"/>
+            <Entry WidthRequest="100" 
+                   HeightRequest="40" 
+                   BackgroundColor="White" 
+                   VerticalOptions="Center" 
+                   Margin="10,0,0,0"
+                   Keyboard="Numeric"/>
+        </StackLayout>
+        
+        <StackLayout Orientation="Horizontal" 
+        HorizontalOptions="Center" 
+        Margin="10">
+            <Label Text="Temperatura" 
+                   FontSize="20" 
+                   VerticalOptions="Center"/>
+            <Entry WidthRequest="50" 
+                   HeightRequest="40" 
+                   BackgroundColor="White" 
+                   VerticalOptions="Center" 
+                   Margin="10,0,0,0"
+                    Keyboard="Numeric"/>
+            <Label Text="C°" 
+                   FontSize="20" 
+                   VerticalOptions="Center"
+                   Margin="0,0,0,0"/>
+        </StackLayout>
+
+        <Label Text="Status:" 
+               FontSize="20" 
+               HorizontalOptions="Center" 
+               Margin="10"/>
+
+        <Button Text="Voltar" 
+                BackgroundColor="Blue" 
+                TextColor="White" 
+                CornerRadius="5"
+                Margin="10"/>
+    </StackLayout>
+</ContentPage>

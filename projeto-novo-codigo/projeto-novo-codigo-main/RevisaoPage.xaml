@@ -1,0 +1,23 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="charles.RevisaoPage"
+             Title="Revisão">
+
+   <VerticalStackLayout Spacing="20">
+        <Label Text="Revisão" FontSize="Title" HorizontalTextAlignment="Center"/>
+        <Image x:Name="imagemProduto" Source="default_image.png" Aspect="AspectFill"/>
+        <Editor x:Name="descricaoProduto" Placeholder="Descrição do produto"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="Desmanchar e refazer" 
+            Clicked="Desmanchar_Clicked"/>
+            
+            <Button Text="Está correto" 
+            Clicked="EstaCorreto_Clicked" 
+            Grid.Column="1"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage/>

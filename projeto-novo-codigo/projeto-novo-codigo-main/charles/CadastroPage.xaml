@@ -1,0 +1,18 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="charles.CadastroPage"
+             Title="Cadastro de Cliente">
+
+    <VerticalStackLayout Spacing="20">
+        <Entry Placeholder="Nome" />
+        <Entry Placeholder="Endereço" />
+        <Entry Placeholder="Telefone" />
+        <Entry Placeholder="CPF" />
+        <Entry Placeholder="CEP" />
+
+        <Button Text="Salvar" 
+        Clicked="Salvar_Clicked" />
+        <Button Text="Cancelar" 
+        Clicked="Cancelar_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>
