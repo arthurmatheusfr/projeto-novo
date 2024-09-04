@@ -10,6 +10,13 @@
           FontSize="16"
           TextColor="Black"
           Clicked="NovoClienteClicked"/>
+           
+           <Button Text="Voltar" 
+                    BackgroundColor="Blue" 
+                    TextColor="White" 
+                    Clicked="VoltarClicked" 
+                    HorizontalOptions="Center"/>
+
     <ListView x:Name="ListaClientes"
               HasUnevenRows="True"
               ItemSelected="QuandoSelecionarUmItemNaLista"

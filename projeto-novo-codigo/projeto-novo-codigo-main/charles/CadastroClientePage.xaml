@@ -30,6 +30,11 @@
                         TextColor="Green"
                         BackgroundColor="Transparent"
                         Clicked="OnSalvarDadosClicked"/>
+                        <Button Text="Voltar"
+                        TextColor="Orange"
+                        BackgroundColor="Transparent"
+                        Clicked="VoltarClicked"/>
+                        
             </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>

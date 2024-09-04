@@ -49,7 +49,7 @@
             <Button Text="Voltar" 
                     BackgroundColor="Blue" 
                     TextColor="White" 
-                    Clicked="OnVoltarClicked" 
+                    Clicked="VoltarClicked" 
                     HorizontalOptions="Center" />
         </StackLayout>
     </StackLayout>

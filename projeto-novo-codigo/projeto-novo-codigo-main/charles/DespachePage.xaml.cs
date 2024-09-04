@@ -18,9 +18,7 @@ namespace charles
 
         private void OnVoltarClicked(object sender, EventArgs e)
         {
-            // Ação a ser executada quando o botão "Voltar" for clicado
-            // Por exemplo, navegar para a página anterior
-            Navigation.PopAsync();
+              Application.Current.MainPage = new MainPage();
         }
     }
 }

@@ -33,4 +33,8 @@ public partial class ListaClientesPage : ContentPage
     // sendo assim, apenas criamos a nova página
     Application.Current.MainPage = new CadastroClientePage();
   }
+     void VoltarClicked(object sender, EventArgs e)
+  {
+    Application.Current.MainPage = new MainPage();
+  }
 }

@@ -23,8 +23,7 @@ namespace charles
 
         private void Voltar_Clicked(object sender, EventArgs e)
         {
-            // Lógica para voltar (por exemplo, navegar para outra página)
-            // DisplayAlert("Voltar", "Voltar para a página anterior", "OK");
+         Application.Current.MainPage = new MainPage();
         }
     }
 }

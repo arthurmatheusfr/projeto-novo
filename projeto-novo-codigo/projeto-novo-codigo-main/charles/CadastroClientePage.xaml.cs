@@ -4,7 +4,7 @@ namespace charles;
 
 public partial class CadastroClientePage : ContentPage
 {
-  public Cliente cliente {get ; set;}
+  public Cliente cliente = new Cliente();
   Controles.ClienteControle clienteControle = new Controles.ClienteControle();
 
 	public CadastroClientePage()
@@ -67,5 +67,9 @@ public partial class CadastroClientePage : ContentPage
     }
     else
       return true;
+  }
+  void VoltarClicked(object sender, EventArgs e)
+  {
+    Application.Current.MainPage = new ListaClientesPage();
   }
 }
