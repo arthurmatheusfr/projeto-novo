@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = charles
+build_property.ProjectDir = C:\Users\Aluno\projeto-novo\projeto-novo-codigo\projeto-novo-codigo-main\charles\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/AcabamentoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.AcabamentoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AcabamentoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AcabamentoPage.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/CadastroClientePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.CadastroClientePage.xaml
+build_metadata.AdditionalFiles.TargetPath = CadastroClientePage.xaml
+build_metadata.AdditionalFiles.RelativePath = CadastroClientePage.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/CadastroPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.CadastroPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CadastroPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CadastroPage.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/ClientePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.ClientePage.xaml
+build_metadata.AdditionalFiles.TargetPath = ClientePage.xaml
+build_metadata.AdditionalFiles.RelativePath = ClientePage.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/CompraEstoquePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.CompraEstoquePage.xaml
+build_metadata.AdditionalFiles.TargetPath = CompraEstoquePage.xaml
+build_metadata.AdditionalFiles.RelativePath = CompraEstoquePage.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/cortepage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.cortepage.xaml
+build_metadata.AdditionalFiles.TargetPath = cortepage.xaml
+build_metadata.AdditionalFiles.RelativePath = cortepage.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/CosturaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.CosturaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CosturaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CosturaPage.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/DespachePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.DespachePage.xaml
+build_metadata.AdditionalFiles.TargetPath = DespachePage.xaml
+build_metadata.AdditionalFiles.RelativePath = DespachePage.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/FiacaoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.FiacaoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = FiacaoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = FiacaoPage.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/LavagemPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.LavagemPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LavagemPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LavagemPage.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/ListaClientesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.ListaClientesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ListaClientesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ListaClientesPage.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Aluno/projeto-novo/projeto-novo-codigo/projeto-novo-codigo-main/charles/StatusPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = charles.StatusPage.xaml
+build_metadata.AdditionalFiles.TargetPath = StatusPage.xaml
+build_metadata.AdditionalFiles.RelativePath = StatusPage.xaml
